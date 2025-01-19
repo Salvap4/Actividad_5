@@ -32,3 +32,7 @@ public class CombinacionesElementos {
         return (calcular(n-1, k-1) + calcular(n-1, k));
     }
 }
+
+//  DIFERENCIAS ENTRE COMMIT, PUSH Y PULL
+//  Commit guarda los cambios en el repositorio local, push sube los cambios al repositorio remoto y pull descarga 
+//  cambios desde el repositorio remoto. Commit y pull actúan en local (tu máquina), push actúa en remoto (GitHub).
